@@ -1,0 +1,87 @@
+body{
+    padding: 30px;
+
+background: #4C1C1C;
+background: linear-gradient(135deg, #4C1C1C, #2D361C);
+}
+button{
+
+  align-items: center;
+  background-color: initial;
+  box-sizing: border-box;
+  color: rgb(242, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01,sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  margin: 0;
+  outline: none;
+  padding: 19px 26px;
+}
+
+.answer{
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+}
+.result{
+    display: flex;
+
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40PX;
+    margin: 50px;
+    font-family: Eina01,sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;   
+    color: rgb(77, 77, 77);
+
+}
+.start button{
+    margin: 30px;
+}
+.question{
+    color: rgb(111, 103, 103);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.allshit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40PX;
+    margin: 50px;
+    font-size: large;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40PX;
+    margin: 50px;
+    font-size: large;
+}
+.end div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: rgb(115, 115, 115);
+    margin: 20px;
+}
+.qna {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 600px;
+}
